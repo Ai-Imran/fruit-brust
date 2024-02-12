@@ -18,6 +18,10 @@
     .lato-font{
         font-family: 'Lato', sans-serif;
     }
+    .bg-image{
+        background-image: url(images/banner1.png);
+        opacity: 0.7;
+    }
 </style>
     <!-- custom css -->
     <script>
@@ -61,34 +65,34 @@
                 </div>
                     <div class="carousel w-full z-10">
                         <div id="slide1" class="carousel-item relative w-full">
-                          <img src="/images/banner1.png" class="w-full" />
+                          <img src="images/banner1.png" class="w-full" />
                           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a> 
+                            <a href="#slide4" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                           </div>
-                        </div> 
+                        </div>
                         <div id="slide2" class="carousel-item relative w-full">
-                          <img src="/images/banner2.png" class="w-full" />
+                          <img src="./images/banner2.png" class="w-full" />
                           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a> 
+                            <a href="#slide1" class="btn btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-circle">❯</a>
                           </div>
-                        </div> 
+                        </div>
                         <div id="slide3" class="carousel-item relative w-full">
-                          <img src="/images/banner3.png" class="w-full" />
+                          <img src="./images/banner3.png" class="w-full" />
                           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a> 
+                            <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide4" class="btn btn-circle">❯</a>
                           </div>
-                        </div> 
+                        </div>
                         <div id="slide4" class="carousel-item relative w-full">
-                          <img src="/images/banner4.png" class="w-full" />
+                          <img src="./images/banner4.png" class="w-full" />
                           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a> 
+                            <a href="#slide3" class="btn btn-circle">❮</a>
                             <a href="#slide1" class="btn btn-circle">❯</a>
                           </div>
                         </div>
-                </div>   
+                </div>
                 <div class="bg-white rounded-2xl p-9 absolute z-20 -mt-16 ml-40 shadow-lg">
                     <div class="grid-cols-5 grid justify-center items-center">
                         <div class="">
@@ -112,11 +116,186 @@
                             <h2 class="font-bold text-xl">Pomegranate</h2>
                         </div>
                     </div>
-                </div>        
-                
+                </div>
+
             </div>
         </div>
     </header>
-    
+    <main class="container mx-auto">
+        <div>
+            <div class="flex flex-col lg:flex-row justify-between mb-9">
+                <div>
+                    <h2 class="font-extrabold text-xl">Deal of the day</h2>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                          </span>
+                          days
+                        </div>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:22;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 lg:grid-cols-4 gap-6">
+                <div class="card p-6 border mb-16 ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <h3 class="text-center font-bold mt-5 mb-4">12.90$ - 18.85$</h3>
+                    <hr>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Orange</h2>
+                      <div class="card-actions">
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                              </div>
+                        </div>
+                    </div>
+                    <h3 class="text-center font-semibold text-common-color">Details</h3>
+                    </div>
+                  </div>
+                  <div class="card p-6 border mb-16 ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <h3 class="text-center font-bold mt-5 mb-4">12.90$ - 18.85$</h3>
+                    <hr>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Orange</h2>
+                      <div class="card-actions">
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                              </div>
+                        </div>
+                    </div>
+                    <h3 class="text-center font-semibold text-common-color">Details</h3>
+                    </div>
+                  </div>
+                  <div class="card p-6 border mb-16 ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <h3 class="text-center font-bold mt-5 mb-4">12.90$ - 18.85$</h3>
+                    <hr>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Orange</h2>
+                      <div class="card-actions">
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                              </div>
+                        </div>
+                    </div>
+                    <h3 class="text-center font-semibold text-common-color">Details</h3>
+                    </div>
+                  </div>
+                  <div class="card  p-6 border mb-16 ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <h3 class="text-center font-bold mt-5 mb-4">12.90$ - 18.85$</h3>
+                    <hr>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Orange</h2>
+                      <div class="card-actions">
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-common-color" />
+                              </div>
+                        </div>
+                    </div>
+                    <h3 class="text-center font-semibold text-common-color">Details</h3>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="text-center mb-12">
+            <button class="text-center rounded-2xl px-6 text-white p-3 font-bold bg-common-color">Shop All</button>
+        </div>
+        <section class="container mx auto bg-image opacity-1 mb-12 bg-no-repeat p-5 text-center text-white rounded-xl">
+            <div>
+                <h3 class="text-5xl font-extrabold mb-5">Meet the team section</h3>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of <br> classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 p-7">
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title font-bold texxt-3xl">Awlad Hossain</h2>
+                      <p>Fruits Expart</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title font-bold texxt-3xl">Awlad Hossain</h2>
+                      
+                    </div>
+                </div>
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title font-bold texxt-3xl">Awlad Hossain</h2>
+                      
+                    </div>
+                </div>
+                <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title font-bold texxt-3xl">Awlad Hossain</h2>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
